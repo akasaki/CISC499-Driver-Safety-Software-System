@@ -1,0 +1,24 @@
+use "torque";
+DROP TABLE IF EXISTS `roadCondition`;
+CREATE TABLE `roadCondition` (
+  `id` varchar(32) NOT NULL,
+  `time` varchar(15) NOT NULL,
+
+  `kff1005` float NOT NULL DEFAULT '0'COMMENT 'GPS Longitude',
+  `kff1006` float NOT NULL DEFAULT '0'COMMENT 'GPS Latitude',
+    `type` int NOT NULL COMMENT '1=pothole,2=slipper',
+    
+
+  KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+LOCK TABLES `roadCondition` WRITE;
+INSERT INTO `roadCondition`VALUES 
+('836221','1456245924474',-76.5043,44.2334,1),
+('836222','1456245924294',-76.5042,44.2335,2),
+('836223','1456245723794',-76.5044,44.2333,1),
+('836224','1456245954494',-76.5045,44.2332,1),
+('836225','1456245224394',-76.5043,44.2336,1);
+
+UNLOCK TABLES;

@@ -35,4 +35,6 @@ torque.sql includes everything we need for analysis (raw data, driver scores for
 raw_data.sql includes the data collected from OBD ONLY. </p>
 
 <b>Application</b>
-Download your APP code from https://github.com/rayrwen/DriveSafe and complie.
+<p>Download your APP code from https://github.com/rayrwen/DriveSafe and complie.</p>
+
+Have FUN! :)

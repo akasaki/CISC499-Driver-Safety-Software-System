@@ -33,3 +33,6 @@ In <i>data</i>:
 Run .sql file to insert everything to your database.</br>
 torque.sql includes everything we need for analysis (raw data, driver scores for each trip, surrounding and road conditions). </br>
 raw_data.sql includes the data collected from OBD ONLY. </p>
+
+<b>Application</b>
+Download your APP code from https://github.com/rayrwen/DriveSafe and complie.
